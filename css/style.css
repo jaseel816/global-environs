@@ -5,8 +5,7 @@ html, body {
     font-family: 'Montserrat', sans-serif !important;
 }
 header{
-    background-color: transparent;
-    position: absolute;
+    background-color:transparent;
     width: 100%;
 }
 .navbar-light .navbar-brand {
@@ -35,14 +34,16 @@ header{
     margin-right: auto;
   }
   .fixed-top {
-    position: sticky;
+    position: relative;
     top: 0;
     right: 0;
     left: 0;
     z-index:1;
-    background-color: white;
+    background-color:white;
     top: 0px;
     display: flex;
+    box-shadow: 0.2px 0.2px 0.2px 0.2px #707070;
+    width: 100%;
   }
   .nav-link {
     padding: .2rem 1rem;
@@ -420,6 +421,7 @@ header{
         margin-right: auto;
         display: block;
         margin-top: 20px;
+
 }@media screen and (max-width:1200px){
     .banner-container{
         width: 100%;
@@ -649,14 +651,14 @@ header{
         }
         .dot h1{
             text-align: center;
-            font-size: 1.0rem;
+            font-size: 1.5rem;
             font-weight: 300;
             color: red;
             font-style: italic;
         } 
         .dot p{
             text-align: center;
-            font-size: 2rem;
+            font-size: 3rem;
             font-weight: 400;
             color: white;
             margin-top: -10px;
@@ -667,8 +669,8 @@ header{
         }
         .dot img{
             align-items: center;
-            width: 37px;
-            height: 37px;
+            width: 45px;
+            height: 45px;
             margin-left: auto;
             margin-right: auto;
             display: block;
@@ -752,21 +754,21 @@ header{
         }
         .dot h1{
             text-align: center;
-            font-size: 0.5rem;
+            font-size: 1rem;
             font-weight: 200;
             color: red;
             font-style: italic;
         } 
         .dot p{
-                text-align: center;
-                font-size: 1rem;
-                font-weight: 300;
-                color: white;
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 300;
+            color: white;
         }
         .dot img{
             align-items: center;
-            width: 20px;
-            height: 20px;
+            width: 30px;
+            height: 30px;
             margin-left: auto;
             margin-right: auto;
             display: block;
